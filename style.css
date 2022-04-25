@@ -1,0 +1,57 @@
+/* Element selector with group */
+h1,h2{
+    text-align: center;
+    color: black;
+
+}
+
+ /* class selector
+.special{
+    color: chocolate;
+} */
+
+
+/* if want to class with tagname then EX-[span.special]  */
+li.special{
+    color: crimson;
+}
+/*Element desendent element selector*/
+/* 
+li em{
+    color: purple;
+} */
+/* Element assendent element selector
+h1+p{
+    colour:white;
+}
+*/
+
+
+/* pSeudo Class selector */
+
+a:hover
+{
+    color: orangered;
+    text-decoration: none;
+}
+
+/* ID selector  */
+#sangam{
+    background-color: aqua;
+    text-align: center;
+    text-emphasis-color: red;
+}
+
+/* Attribute group selector  */
+/* td[class]{
+    color: brown;
+    font-size: 300% ;
+} */
+/* Attribute single class  selector */
+td[class="a"]{
+    color: blueviolet;
+}
+/* Attribute of only class a present in class  */
+td[class~="a"]{
+    color: red;
+}
